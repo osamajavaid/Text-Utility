@@ -6,11 +6,11 @@ import './styling/Navbar.css'
 export default function Navbar(props) {
   return (
     <div>
-        <nav className={`navbar navbar-expand-lg border-info nav-${props.navMode} bg-${props.navMode}`}>
+        <nav className={`navbar navbar-expand-lg py-4 border-info nav-${props.navMode} bg-${props.navMode}`}>
           <div className="container-fluid">
             <Link className={`navbar-brand text-${props.navMode==='light'?'dark':'light'}`} to="/Text-Utility">Text Utility</Link>
             <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon text-light"></span>
+              <span className="navbar-toggler-icon" style={{fontSize: '25px'}}>&nabla;</span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className= {`navbar-nav mx-auto mb-2 mb-lg-0`}>
