@@ -10,7 +10,6 @@ import Alert from './Components/Alert';
 import {
   BrowserRouter as Router,
   Switch,
-  
   Route,
   Routes,
   Link
