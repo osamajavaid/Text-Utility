@@ -55,7 +55,7 @@ function App() {
         <Navbar navMode={mode} Myswitch={btn} toggle={toggleHandler}/>
         <Alert Alert={alert} />
         <Routes>
-            <Route exact path="/" element={<Textform navMode={mode} toggle={toggleHandler} showAlert={showAlert}/>}>
+            <Route exact path="/Text-Utility" element={<Textform navMode={mode} toggle={toggleHandler} showAlert={showAlert}/>}>
             </Route>
             <Route exact path="/about" element={<About navMode={mode}/>}>
             </Route>
